@@ -167,7 +167,6 @@ function App(){
     setAiResult(null);
     setErrorMsg("");
     
-    // Plan de demostración sin API
     setAiResult({
       titulo:`Plan de ${daysAvail} días para ${goal}`,
       descripcion:"Plan personalizado diseñado por Eros",
@@ -192,7 +191,7 @@ function App(){
     setErrorMsg("");
     
     try{
-      const res=await fetch("https://formspree.io/f/xyzqwert",{
+      const res=await fetch("https://formspree.io/f/mykvvzzz",{
         method:"POST",
         headers:{"Content-Type":"application/json"},
         body:JSON.stringify({
